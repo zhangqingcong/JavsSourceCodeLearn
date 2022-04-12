@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/../DesignPatterns/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HibernateDemo/HibernateDemo.iml" filepath="$PROJECT_DIR$/../HibernateDemo/HibernateDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ITHeima/ITHeima.iml" filepath="$PROJECT_DIR$/../ITHeima/ITHeima.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JVM/JVM.iml" filepath="$PROJECT_DIR$/../JVM/JVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSourceCodeLearn.iml" filepath="$PROJECT_DIR$/JavaSourceCodeLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MiniORM/MiniORM.iml" filepath="$PROJECT_DIR$/../MiniORM/MiniORM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatisDemo/MyBatisDemo.iml" filepath="$PROJECT_DIR$/../MyBatisDemo/MyBatisDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestMiniORM/TestMiniORM.iml" filepath="$PROJECT_DIR$/../TestMiniORM/TestMiniORM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ThreadLocal/ThreadLocal.iml" filepath="$PROJECT_DIR$/../ThreadLocal/ThreadLocal.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!--    引入数据库链接的配置文件-->
+    <properties resource="jdbc.properties"/>
+    <!--    配置LOG4J-->
+    <settings>
+        <setting name="logImpl" value="log4j"/>
+    </settings>
+    <!--    起别名-->
+    <typeAliases>
+        <!--        <package> 标签是这个包下的所有类都起个别名 别名默认是类名小驼峰-->
+        <package name="cn.itcast.orm.entity"/>
+        <!--        <package name="cn.itcast.orm.entity"/>-->
+    </typeAliases>
+    <!--   <environments> 配置数据库环境 环境可以有多个 default属性指定使用哪个-->
+    <environments default="mysql01">
+        <environment id="mysql01">
+            <!-- transactionManager事务管理。  type属性，采用JDBC默认的事务-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--            数据库链接信息 type属性表示是否使用链接池-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--    加载映射文件 这里设置的是映射配置文件的位置信息-->
+    <mappers>
+        <!--        <mapper>标签引入指定的映射配置文件 resource属性指定映射配置问及爱你的名称-->
+        <mapper resource="StudentMapper.xml"></mapper>
+        <!--        <package name="cn.itcast.orm.mapper"/>-->
+    </mappers>
+</configuration>

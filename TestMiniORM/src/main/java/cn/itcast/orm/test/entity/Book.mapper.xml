@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--上面这一行是文档声明-->
+<!--Mapper.java对象用来存从这里解析出来的数据-->
+
+
+<orm-mapping>
+    <class name="cn.itcast.orm.test.entity.Book" table="t_book">
+        <id name="id" column="bid"/>
+        <property name="name" column="bname"/>
+        <property name="author" column="author"/>
+        <property name="price" column="price"/>
+    </class>
+
+</orm-mapping>
